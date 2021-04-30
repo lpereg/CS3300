@@ -33,3 +33,6 @@
 
 #adding the coverage directory
 /coverage/
+
+#iteration 4
+#echo "coverage" >> .gitignore

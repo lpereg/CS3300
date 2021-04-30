@@ -19,6 +19,7 @@ RSpec.describe Post, type: :model do
   end
 
   context "scopes tests" do
+    
 
   end
 end
