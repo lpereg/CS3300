@@ -10,3 +10,11 @@ before_install:
 
 script:
  - bundle exec rspec
+ 
+deploy:
+ provider: heroku
+ api_key: 3260d933-958d-4dc2-ba3b-04bf4c4a0e9e
+ app: secure-sea-61620
+ run: "rake db:migrate"
+ on:
+  all_branches: true

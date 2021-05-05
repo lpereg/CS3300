@@ -6,6 +6,7 @@
 
 require 'rails_helper'
 
+
 RSpec.feature "Post", type: :feature do
   context "Create new post" do
     before(:each) do

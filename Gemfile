@@ -67,7 +67,9 @@ group :test do
 
   #added from iteration4
   gem 'simplecov', require: false
-  
+
+  #from iteration 5
+  gem 'factory_bot_rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -89,3 +91,6 @@ end
 #  gem 'capybara'
 #end
 #end of capybara gem from iter 4
+
+#gem for iteration 5
+gem 'devise'
