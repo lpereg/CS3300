@@ -1,4 +1,30 @@
+<!-- this file was heavily modified for iteration 6 -->
+
 <% provide(:page_title, 'All Posts') %>
+<center>
+<h2>Projects</h2>
+<%= link_to 'New Post', new_post_path %>
+<br><br>
+</center>
+
+  
+
+
+<div class="row">
+<% @posts.each do |post| %>
+  <%= render post %>
+  <% end %>
+</div>
+
+
+
+
+
+
+
+<!-- Below was the original setting
+
+
 
 <p id="notice"><%= notice %></p>
 
@@ -32,4 +58,5 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Post', new_post_path %>  -->
+
